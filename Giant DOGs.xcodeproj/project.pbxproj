@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		529D85392245A68200A3629C /* GiantsTab.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529D85382245A68200A3629C /* GiantsTab.storyboard */; };
+		529D853B2245A81F00A3629C /* AnimateTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529D853A2245A81F00A3629C /* AnimateTabBar.swift */; };
 		52D11091224593C10046EA62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D11090224593C10046EA62 /* AppDelegate.swift */; };
 		52D11093224593C10046EA62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D11092224593C10046EA62 /* ViewController.swift */; };
 		52D11096224593C10046EA62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D11094224593C10046EA62 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		529D85382245A68200A3629C /* GiantsTab.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GiantsTab.storyboard; sourceTree = "<group>"; };
+		529D853A2245A81F00A3629C /* AnimateTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateTabBar.swift; sourceTree = "<group>"; };
 		52D1108D224593C10046EA62 /* Giant DOGs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Giant DOGs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D11090224593C10046EA62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52D11092224593C10046EA62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,7 @@
 		52D11084224593C10046EA62 = {
 			isa = PBXGroup;
 			children = (
+				529D85382245A68200A3629C /* GiantsTab.storyboard */,
 				52D1108F224593C10046EA62 /* Giant DOGs */,
 				52D1108E224593C10046EA62 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				52D11097224593C20046EA62 /* Assets.xcassets */,
 				52D11099224593C20046EA62 /* LaunchScreen.storyboard */,
 				52D1109C224593C20046EA62 /* Info.plist */,
+				529D853A2245A81F00A3629C /* AnimateTabBar.swift */,
 			);
 			path = "Giant DOGs";
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				529D85392245A68200A3629C /* GiantsTab.storyboard in Resources */,
 				52D1109B224593C20046EA62 /* LaunchScreen.storyboard in Resources */,
 				52D11098224593C20046EA62 /* Assets.xcassets in Resources */,
 				52D11096224593C10046EA62 /* Main.storyboard in Resources */,
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52D11093224593C10046EA62 /* ViewController.swift in Sources */,
+				529D853B2245A81F00A3629C /* AnimateTabBar.swift in Sources */,
 				52D11091224593C10046EA62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
